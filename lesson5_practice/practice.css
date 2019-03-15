@@ -1,0 +1,13 @@
+h1 {
+    font-style: italic;
+    color:rgb(255,0,0);
+}
+p{
+    color: #3333ff;
+}
+#second{
+    color: #ff6600;
+}
+.even{
+    font-weight: bold;
+}
