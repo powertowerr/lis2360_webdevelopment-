@@ -6,7 +6,7 @@ body {
 	font-size: 15px;
 	line-height: 1.9em;
 	color: #0A4C0A;
-	background-color: #0A4C0A;
+	background-color:#0A4C0A;
 	padding: 0px 35px;
 	margin: 0;
 } 
@@ -59,10 +59,11 @@ a:hover {
 }
 
 /* list styles ----------------------------- */
-ul li {
+/* This list style was made into a div tag to seperate from the navbar*/
+/*ul li {
 	list-style-image: url(images/star.png);
 	margin-left: 20px;
-}
+}*/ 
 ol {
 	margin-left: 20px;
 }
@@ -102,6 +103,11 @@ iframe {
 }
 
 /* DIV STYLES FOR PAGE LAYOUT */
+
+#reference_links {
+	list-style-image: url(images/star.png);
+	margin-left: 20px;
+}
 
 #container {
 	width:950px;
