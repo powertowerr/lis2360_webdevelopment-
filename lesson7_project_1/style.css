@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document created by Justin Powers, April 8, 2019 */
+
+body {
+	font-family: Helvetica, sans-serif, times, Arial;
+	font-size: 15px;
+	line-height: 1.9em;
+	color: #0A4C0A;
+	background-color: #0A4C0A;
+	padding: 0px 35px;
+	margin: 0;
+} 
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	font-style: normal;
+	color: #000000;
+}
+h1 {
+	font-size: 40px;
+	padding: 10px 0;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	line-height: 1em;
+}
+h2 {
+	font-size: 25px;
+	padding: 20px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #AE9217;
+}
+h3 {
+	font-size: 35px;
+	letter-spacing: 0.4em;
+	background-color: #AE9217;
+	border-bottom-width: 6px;
+	border-bottom-style: groove;
+	border-bottom-color: #AE9217;
+	padding: 1px 0px 25px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #0A4C0A;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bold;
+	color: #0A4C0A;
+	text-decoration: none;
+}
+a:hover {
+	color: #AE9217;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 20px;
+}
+ol {
+	margin-left: 20px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: dotted #0A4C0A 5px;
+}
+td {
+	padding: 8px;
+	text-align: center;
+	border: solid #AE9217 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #AE9217;
+	text-align: center;
+	padding: 11px;
+	border: solid #AE9217 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #AE9217 2px;
+
+}
+
+img {
+	border: solid #AE9217 10px;
+	padding: 5px;
+}
+
+iframe {
+	border: solid #AE9217 5px;
+	padding: 10px;
+	margin: 20px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width:950px;
+	margin: 0 auto;
+	background-color: #C2FFA4;
+	overflow: hidden;
+}
+
+#header {
+	width: 100%; 
+	padding-left: 20px;
+	background-color: #C2FFA4;
+	border-bottom: 2px solid #AE9217;
+}
+
+#content { 
+	width: 650px;
+	float: left; 
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+#sidebar { 
+	width: 238px; 
+	float: right;
+	margin-top: 20px;
+	margin-right: 25px;
+	background: #AE9217;
+	border: 1px solid  #0A4C0A;
+	border-radius: 15px;
+	box-shadow: 15px 10px 10px #0A4C0A;
+	margin-bottom: 20px
+}
+
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #C2FFA4;
+	border-top: 3px solid #AE9217;
+}
+
+#footer p {
+	margin: 0;
+	padding: 35px;
+}
